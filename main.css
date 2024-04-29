@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Inter Tight', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main-page-wrapper {
+    background-image: url("home-background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1000px, 100vw);
+    height: 90vh;
+    position: relative;
+}
+
+.main-page-wrapper .main-page {
+    height: 90vh;
+    width: 100%;
+    opacity: 0.64;
+    position: absolute;
+    top: 0;
+    background-color: black;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 90vw;
+    margin: auto;
+    align-items: center;
+    height: 62px;
+    padding-top: 10px;
+}
+
+.nav img {
+    position: relative;
+    z-index: 10;
+}
+
+.nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.main-text-wrapper {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    gap: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.main-text-wrapper>:first-child {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.main-text-wrapper> :nth-child(2),
+:nth-child(3) {
+    font-size: 22px;
+    color: white;
+}
+
+.select-btn {
+    background-color: transparent;
+    color: white;
+    padding: 8px 20px;
+    font-size: 15px;
+    border-radius: 8px;
+    position: relative;
+    z-index: 10;
+}
+
+.select-btn> :first-child(1),
+:nth-child(2) {
+    font-size: 15px;
+    color: black;
+}
+
+.btn-red {
+    background-color: #E50914;
+    color: white;
+    padding: 8px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.main-text-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-red-started {
+    background-color: #E50914;
+    color: white;
+    padding: 10px 23px;
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-text-btn input {
+    background-color: rgba(23, 22, 22, 0.6);
+    color: white;
+    padding: 17px 200px 17px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 0.2px solid white;
+}
+
+.seperation {
+    height: 10px;
+    background-color: rgb(45, 45, 45);
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    height: 80vh;
+    width: 70vw;
+    margin: auto;
+    align-items: center;
+    color: white;
+}
+
+.first div {
+    display: flex;
+    flex-direction: column;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+    /* margin-top: 10px; */
+}
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    position: relative;
+    z-index: 10;
+    width: 36vw;
+}
+
+.secImg video {
+    position: absolute;
+    top: 51px;
+    right: 1px;
+
+}
+
+.faq {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 60px;
+}
+
+.faqbox {
+    background-color: rgb(45, 45, 45);
+    margin: 20px 200px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+}
+
+.faq span {
+    font-size: 20px;
+    font-weight: normal;
+}

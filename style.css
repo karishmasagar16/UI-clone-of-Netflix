@@ -1,0 +1,66 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Inter Tight', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    height:200px;
+    width:200px;
+    padding-left: 40px;
+}
+.home{
+    height: 800px;
+    background-image: url("home-background.jpg");
+    background-color: rgba(0,0,0,0.7);
+    
+    
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height:500px;
+    width:400px;  */
+}
+.signin{
+    color:white;
+    height:500px;
+    width:400px;
+    background-color: rgba(0,0,0,0.6);
+    padding:50px;
+    font-size: 25px;
+    
+}
+#forminput{
+    width:350px;
+    background-color: #333333;
+    margin-top: 20px;
+    height:50px;
+    border-radius: 10px;
+}
+.signin form button{
+    color:white;
+    background-color: #E50914;
+    height:50px;
+    width:360px;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.remember{
+    justify-content: space-between;
+    display: flex;
+    font-size: 14px;
+    color: #737373;
+    margin-top: 10px;
+}
+.remember a{
+    color: #737373;
+    text-decoration: none;
+    padding-right: 40px;
+}
